@@ -18,7 +18,7 @@ public class App {
         GlobalConfig globalConfig = new GlobalConfig();
 
         //设置只生成哪些表
-        globalConfig.addGenerateTable("tb_account");
+        globalConfig.addGenerateTable("tb_account", "shop_product", "shop_user", "shop_order");
 
         //设置 entity 的包名
         globalConfig.setEntityPackage("com.zfl19.core.entity");
